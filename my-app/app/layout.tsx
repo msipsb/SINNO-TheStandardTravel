@@ -7,6 +7,12 @@ const geistSans = Geist({
   subsets: ["latin"],
 });
 
+const alegreyaSans = Alegreya_Sans({
+  variable: "--font-alegreya-sans",
+  subsets: ["latin"],
+  weight: "400",
+});
+
 const geistMono = Geist_Mono({
   variable: "--font-geist-mono",
   subsets: ["latin"],
@@ -20,7 +26,7 @@ export const metadata: Metadata = {
 const alegreya_Sans = Alegreya_Sans({
   variable: "--font-alegreya-sans",
   subsets: ["latin"],
-  weight: "400"
+  weight: "400",
 });
 
 export default function RootLayout({
@@ -31,7 +37,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${geistSans.variable} ${geistMono.variable} ${alegreya_Sans.variable} antialiased`}
+        className={`${geistSans.variable} ${geistMono.variable} ${alegreyaSans.variable} antialiased`}
       >
         {children}
       </body>
