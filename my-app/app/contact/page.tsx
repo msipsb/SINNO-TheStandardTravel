@@ -1,7 +1,7 @@
 import Image from "next/image";
-import Navbar from "../component/public/navbar";
-import Contact from "../component/public/Contact";
-import Contact2 from "../component/public/Contact2";
+import Navbar from "../../component/public/navbar";
+import Contact from "../../component/public/Contact";
+import Contact2 from "../../component/public/Contact2";
 
 export default function Home() {
   return (
