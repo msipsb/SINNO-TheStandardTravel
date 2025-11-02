@@ -47,17 +47,17 @@ function page() {
           <div className="grow border-t-2 border-[#223843]"></div>
         </div>
       </div>
-      <div className=" flex flex-row mt-16 justify-center gap-8 w-full  z-20">
-        <div className="flex h-50 w-80 bg-[#223843] mx-20 rounded-4xl p-20">
-          {" "}
-        </div>
-        <div className="flex h-50 w-80 bg-[#223843] mx-20 rounded-4xl p-20">
-          {/* <div className="flex flex-row mt-16 justify-between w-full gap-8 z-20">
-        <div className="rounded-2xl bg-my_light_gray fill-my_light_gray w-96 h-72 text-black">
-          fgf
-        </div>
-        <div className="rounded-2xl bg-my_light_gray fill-my_light_gray w-96 h-72"></div> */}
-        </div>
+      <div className=" flex flex-row mt-16  justify-center gap-8 w-full  z-0">
+        <div className="flex h-50 w-90 bg-[#223843] mx-20 rounded-4xl p-20"></div>
+        <div className="flex h-50 w-90 bg-[#223843] mx-20 rounded-4xl p-20"></div>
+      </div>
+      <div className=" flex flex-row mt-16 justify-center gap-8 w-full  z-0">
+        <div className="flex h-50 w-90 bg-[#223843] mx-20 rounded-4xl p-20"></div>
+        <div className="flex h-50 w-90 bg-[#223843] mx-20 rounded-4xl p-20"></div>
+      </div>
+      <div className=" flex flex-row mt-16 mb-16 justify-center gap-8 w-full  z-0">
+        <div className="flex h-50 w-90 bg-[#223843] mx-20 rounded-4xl p-20"></div>
+        <div className="flex h-50 w-90 bg-[#223843] mx-20 rounded-4xl p-20"></div>
       </div>
     </div>
   );
